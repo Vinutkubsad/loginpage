@@ -1,44 +1,37 @@
 body {
-    margin: 0 auto;
-    background-color:white;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    height: 100vh;
-
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	color: dodgerblue;
+	background: linear-gradient(blue, cyan, mediumseagreen);
+	font-family:  'Crimson Text', serif ;
 }
 
 .login-layout {
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    height: 500px;
-    align-items: center;
-    justify-content: center; 
-    border: 1px solid black;
-    box-shadow: 6px 2px 14px 0px blue;
-    max-width: 400px;
-    width: 400px;
-    max-height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid #d9d9d9;
+	box-shadow: 6px 2px 14px 0px #d9d9d9;
+	max-width: 400px;
+	width: 400px;
+	max-height: 400px;
+	height: 400px;
+	background-color: white;
 }
 
 .login-layout>.app-name {
-    padding: 23px;
+	padding: 23px;
 }
 
 .login-layout>input {
-    margin: 12px;
-    height: 40px;
+	margin: 12px;
 }
 
-.login-layout>button {
-    border: 2px solid black;
-    height: 40px;
-    width: 55px;
-
-}
-
-.header {
-    background-color: aqua;
-    width: 100%;
+#js-name-err-msg, #js-password-err-msg{
+	color: red;
+	font-size: 15px;
 }

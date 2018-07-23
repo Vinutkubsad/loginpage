@@ -16,7 +16,7 @@ localStorage.removeItem('auth')
 button.innerHTML = "login";
 } else {
 
-location.href="login.html"
+location.href="login1.html"
 }
 }
 }
